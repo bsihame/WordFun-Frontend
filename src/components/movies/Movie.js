@@ -77,8 +77,10 @@ export default function Movies() {
 
   ])
   return (
-    <div>
-        <MovieList movies ={movies} />
+    <div className="movieList__container">
+        <div className="movieList__row">
+            <MovieList movies ={movies} />
+        </div>
     </div>
   )
 }
